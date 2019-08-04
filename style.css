@@ -1,0 +1,284 @@
+
+
+
+ @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #344055;
+
+}
+
+.offset::before{
+  display: block;
+  content: "";
+  height: 6rem;
+  margin-top: -7rem;
+}
+
+/*navbar section*/
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand img{
+  height: 4rem;
+}
+
+.navbar-nav li{
+  padding-right: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem;
+}
+
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:#3953a5;
+}
+
+/* landing page */
+
+.home-inner{
+  background-image: url(img/backgroundHome.jpg);
+}
+
+.home-inner-secondary{
+  background-image: url(img/BackgroundHome2.png);
+}
+
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top:50%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+.caption h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h4{
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+
+
+.narrow{
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+
+.narrow h1{
+  font-size: 2.4rem;
+}
+
+.btn-secondary{
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: .6rem 1.2rem;
+  margin: 1rem;
+  color: white;
+  background-color: #3953a5;
+  border-color: #3953a5;
+}
+
+.btn-secondary:hover{
+  background-color: #304589;
+  border-color: #304589;
+}
+
+h1 a{
+  color:#344055;
+}
+
+h1 a:hover{
+  color: #344055;
+}
+
+.jumbotron{
+  margin-bottom: 0  !important;
+  padding: 2rem 0 !important;
+  border-radius: 0;
+}
+
+.heading-underline{
+  width: 3rem;
+  height: .2rem;
+  background-color: #3953a5;
+  margin: 0 auto 2rem;
+}
+
+.demos svg.svg-inline--fa{
+  color: #3953a5;
+}
+
+.demos h3{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
+}
+
+.demos p{
+  font-size: 1.1rem;
+}
+
+.gif{
+  height: 30rem;
+}
+
+/*Contact section*/
+
+footer{
+  background-color:#232c3a;
+  color:white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+
+footer img{
+  height: 5rem;
+  margin: 1.5rem 0;
+}
+
+footer a{
+  color:white;
+}
+
+footer svg.svg-inline--fa{
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+
+}
+
+footer svg.svg-inline--fa:hover{
+  color: #3953a5 !important;
+}
+
+/*Video stuff*/
+.video {
+  width: 100%;
+  border: 1px solid black;
+}
+.wrapper{
+  display:table;
+  width:auto;
+  position:relative;
+  width:50%;
+}
+.playpause {
+  background-image:url(img/play-solid.png);
+  background-repeat:no-repeat;
+  width:10%;
+  height:10%;
+  position:absolute;
+  left:0%;
+  right:0%;
+  top:0%;
+  bottom:0%;
+  margin:auto;
+  background-size:contain;
+  background-position: center;
+}
+
+#cpp .fixed{
+  background: url(img/cpp_logo.png);
+  background-size: initial !important;
+  background-repeat: repeat;
+  z-index: -1;
+}
+
+#cs .fixed{
+  background: url(img/cs_logo.png);
+  background-size: initial !important;
+  background-repeat: repeat;
+  z-index: -1;
+}
+
+#java .fixed{
+  background: url(img/java_logo.png);
+  background-size: initial !important;
+  background-repeat: repeat;
+  background-color: #9fc2cc;
+  z-index: -1;
+}
+
+#python .fixed{
+  background: url(img/python_logo.png);
+  background-size: initial !important;
+  background-repeat: repeat;
+  background-color: #ebebd3;
+  z-index: -1;
+}
+
+#rails .fixed{
+  background: url(img/rails_logo.png);
+  background-size: initial !important;
+  background-repeat: repeat;
+  background-color: #bfada3;
+  z-index: -1;
+}
+
+.dark{
+  background-color: rgba(0, 0, 0, 0.75);
+  margin-top: -1.5rem;
+}
+
+
+.white-bg{
+  background-color:white;
+  width: 100%;
+  padding: 3.5rem 0 !important;
+  margin-top: 1rem;
+  
+}
+
+#DemoPage .narrow{
+  width: 65%;
+  margin-bottom:-.1%;
+  padding-bottom: 3%;
+  
+}
+
+#java .jumbotron{
+  margin-bottom: 0  !important;
+  padding: 2rem 0, 3.5rem !important;
+  border-radius: 0;
+  margin-top: 1rem !important;
+}
+
+#rails .jumbotron{
+  margin-bottom: 0  !important;
+  padding: 2rem 0, 3.5rem !important;
+  border-radius: 0;
+  margin-top: 1rem !important;
+}
